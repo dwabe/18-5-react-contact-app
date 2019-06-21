@@ -8,10 +8,10 @@ var Contact = React.createClass({
             React.createElement('div', {className: 'contactItem'},
                 React.createElement('img', {
                     className: 'contactImage',
-                    src: 'https://www.iconfinder.com/icons/211605/download/png/256'
+                    src: 'contact.png'
                 }),
-                React.createElement('p', {className: 'contactLabel'}, 'Imię: ' + this.props.item.firstName),
-                React.createElement('p', {className: 'contactLabel'}, 'Nazwisko: ' + this.props.item.lastName),
+                React.createElement('p', {className: 'contactLabel'}, this.props.item.firstName),
+                React.createElement('p', {className: 'contactLabel'}, this.props.item.lastName),
                 React.createElement('a', {className: 'contactEmail', href: 'mailto:' + this.props.item.email},
                     this.props.item.email
                 ) 
