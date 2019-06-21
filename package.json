@@ -1,0 +1,19 @@
+{
+  "name": "18-5-react-contact-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwabe/18-5-react-contact-app.git"
+  },
+  "author": "bebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwabe/18-5-react-contact-app/issues"
+  },
+  "homepage": "https://github.com/dwabe/18-5-react-contact-app#readme"
+}
