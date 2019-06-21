@@ -16,6 +16,24 @@ var contacts = [
         firstName: 'Zbigniew',
         lastName: 'Koziol',
         email: 'zbigniew.koziol@example.com',
+    },
+    {
+        id: 4,
+        firstName: 'Wiktor',
+        lastName: 'Traktor',
+        email: 'wiktor@traktor.com',
+    },
+    {
+        id: 5,
+        firstName: 'Ping',
+        lastName: 'Pong',
+        email: 'pingpong@pongping.com',
+    },
+    {
+        id: 6,
+        firstName: 'Werner',
+        lastName: 'Wener',
+        email: 'werner.wener@spasmus.de'
     }
 ];
   
