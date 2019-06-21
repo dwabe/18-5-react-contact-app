@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    background-color: lightgray;
+    max-width: 768px;
+    border: 1px solid black;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(4) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+}
+    
+button {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -2px;
+
+    padding-right: 20px;
+}
+
+.contactLabel,
+.contactEmail {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+
+.contactItem {
+    height: 70px;
+    border-bottom: 1px dotted darkgray;
+}
+
+.contactsList {
+    margin-block-start: 0;
+    padding-inline-start: 0;   
+}
